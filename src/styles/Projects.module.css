@@ -1,0 +1,21 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.title {
+    width: 80%;
+    display: block;
+    font-size: 4rem;
+    color: #A66A2C;
+    margin: 0 auto;
+    text-align: right;
+}
+
+style.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: inherit;
+    align-content: center;
+}

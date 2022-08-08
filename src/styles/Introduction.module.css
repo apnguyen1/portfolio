@@ -1,0 +1,39 @@
+.container {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 70%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.greeting {
+    font-size: 3rem;
+    color: #D5AA72;
+}
+
+.name {
+    font-size: 6rem;
+    color: #A66A2C;
+}
+
+.desc {
+    margin-top: 10px;
+    color: #4C2818;
+}
+
+.icons {
+    margin-top: 20px;
+}
+
+.icon {
+    transform: scale(1.5);
+    margin-right: 20px;
+    color: #A66A2C;
+}
+
+.icon:hover {
+    transform: scale(1.6);
+}
+
