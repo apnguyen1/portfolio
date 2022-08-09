@@ -1,0 +1,32 @@
+h3 {
+    all: unset;
+}
+
+.title {
+    display: block;
+    font-size: 3rem;
+}
+
+.desc {
+    font-size: 1.2rem;
+    margin: auto 0;
+}
+
+.profile {
+    width: 250px;
+}
+
+@media (max-width: 760px) {
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .desc {
+        font-size: 1rem;
+    }
+    .profile {
+        margin-top: 12px;
+        width: 100%;
+    }
+}

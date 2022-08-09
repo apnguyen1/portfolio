@@ -1,21 +1,23 @@
-.container {
-    width: 90%;
-    margin: 0 auto;
-}
-
 .title {
-    width: 80%;
-    display: block;
-    font-size: 4rem;
-    color: #A66A2C;
-    margin: 0 auto;
-    text-align: right;
+    font-size: 3rem;
 }
 
-style.projects {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: inherit;
-    align-content: center;
+.content {
+    margin: auto 0;
+
+}
+
+.projectTitle {
+    font-size: 2.5rem;
+}
+
+.projectDesc {
+    font-size: 1.2rem;
+
+}
+
+.projectImg {
+    max-width: 450px;
+    backdrop-filter: grayscale(50%);
+    margin: auto 0;
 }

@@ -1,8 +1,7 @@
-.container {
+.greetings {
     height: 100vh;
 }
 
-.colorContainer {
-    height: 100vh;
-    background-color: white;
+.test {
+    margin-bottom: 100px;
 }

@@ -3,7 +3,6 @@ import { LinkedIn } from '@mui/icons-material';
 import { Icon, Link } from "@mui/material"
 import style from "../styles/Introduction.module.css"
 
-
 function Introduction(props) {
     return (
         <div className={style.container}>

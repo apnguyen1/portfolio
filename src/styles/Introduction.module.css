@@ -1,39 +1,55 @@
 .container {
-    height: 90%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-content: center;
-    width: 70%;
     margin: 0 auto;
     flex-direction: column;
 }
 
 .greeting {
     font-size: 3rem;
-    color: #D5AA72;
+    margin-bottom: 0;
 }
 
 .name {
     font-size: 6rem;
-    color: #A66A2C;
 }
 
 .desc {
     margin-top: 10px;
-    color: #4C2818;
+    font-size: 1.2rem;
 }
 
 .icons {
     margin-top: 20px;
+    padding: 0 12px;
 }
 
 .icon {
-    transform: scale(1.5);
-    margin-right: 20px;
-    color: #A66A2C;
+    transform: scale(2);
+    margin-right: 25px;
 }
 
 .icon:hover {
-    transform: scale(1.6);
+    transform: scale(2.1);
+}
+
+@media (max-width: 576px) {
+    .greeting {
+        font-size: 1.5rem;
+
+    }
+
+    .name {
+        font-size: 3rem;
+    }
+    .desc {
+        font-size: 1rem;
+    }
+
+    .container {
+        height: 50vh;
+    }
 }
 

@@ -1,9 +1,13 @@
-h1, p, a, body {
+p, h1, body, button, li {
     all: unset;
 }
 
+#root, body {
+    box-sizing: border-box;
+}
 
-body, html  {
+#root {
+    min-height: 100vh;
     background-color: #F5F6ED;
 }
 
@@ -17,4 +21,8 @@ body, html  {
 
 .brown {
     color: #4C2818;
+}
+
+.container-fluid {
+    margin-bottom: 300px;
 }
