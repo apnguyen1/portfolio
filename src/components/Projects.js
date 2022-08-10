@@ -1,12 +1,12 @@
 import style from "../styles/Projects.module.css"
-import {Button, Card, Col, Image, Row} from "react-bootstrap";
+import {Card, Col, Image, Row} from "react-bootstrap";
 import hangman from "../assets/hangman.png"
 import map from "../assets/campus.png"
 import farm from "../assets/farm.png"
 import tbd from "../assets/tbd.png"
 import GitHubIcon from '@mui/icons-material/GitHub';
 import OpenInBrowserIcon from '@mui/icons-material/OpenInBrowser';
-import {Icon, Link, Stack} from "@mui/material";
+import {Link, Stack} from "@mui/material";
 
 
 function Projects() {
@@ -63,7 +63,8 @@ function Projects() {
                  image={items[i].image}
                  desc={items[i].desc}
                  key={item}
-                 website={items[i].website}/>
+                 website={items[i].website}
+                 github={items[i].github}/>
     );
 
     const cards = Object.keys(items).map((item, i) =>
@@ -71,7 +72,8 @@ function Projects() {
                      title={items[i].title}
                      image={items[i].image}
                      desc={items[i].desc}
-                     website={items[i].website}/>
+                     website={items[i].website}
+                     github={items[i].github}/>
     );
 
 
@@ -97,7 +99,7 @@ function Project(props) {
                 <p className={style.projectDesc}>{props.desc}
                 </p>
                 <div className={style.icons}>
-                    <Link className={style.icon} target={"#"} href={props.website}>
+                    <Link className={style.icon} target={"#"} href={props.github}>
                         <GitHubIcon color={"secondary"} fontSize={"large"}/>
                     </Link>
                     <Link href={props.website} target={"#"} className={style.icon} >
@@ -123,7 +125,7 @@ function ProjectCard(props) {
                     {props.desc}
                 </Card.Text>
                 <div>
-                    <Card.Link href={props.website} target={"#"} className={style.icon} >
+                    <Card.Link href={props.github} target={"#"} className={style.icon} >
                         <GitHubIcon fontSize={"large"} color={"secondary"}/>
                     </Card.Link>
                     <Card.Link href={props.website} target={"#"} className={style.icon} >

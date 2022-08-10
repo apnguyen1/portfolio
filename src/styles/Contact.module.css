@@ -25,8 +25,6 @@
     border-radius: 12px;
     color: #17495f;
     background-color: #FFFEF2;
-    color: #17495f;
-
 }
 
 .button:hover {
@@ -39,10 +37,20 @@
 .button:active {
     box-shadow: none;
     outline: none;
+    border-color: black;
     background-color: #FFFEF2;
     color: #17495f;
     animation: unfill .3s linear;
 }
+
+.button:focus {
+    background-color: #FFFEF2;
+    color: #17495f;
+}
+
+
+
+
 
 @keyframes fill {
     from {

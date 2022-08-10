@@ -1,6 +1,5 @@
-import style from "../styles/Contact.module.css"
-import {Button, Image} from "react-bootstrap";
-
+import style from "../styles/Contact.module.css";
+import {Button} from "react-bootstrap";
 
 function Contact() {
     return (
@@ -10,9 +9,9 @@ function Contact() {
             My inbox is always open and I'll try to always get back to you as soon as I can. I'm also readily available
             through my LinkedIn and other socials!</p>
 
-            <button className={style.button} href={"mailto:andrewn1@uw.edu"} >
+            <Button role={"button"} className={style.button} href={"mailto:andrewn1@uw.edu"} target={"#"}>
                 <p>Say Hi!</p>
-            </button>
+            </Button>
         </div>
     );
 }
