@@ -40,7 +40,7 @@ function Navigation() {
 function NavItem(props) {
     return(
         <Nav.Item className={style.item}>
-            <Nav.Link href={'#' + props.name} >{props.desc}</Nav.Link>
+            <Nav.Link href={'#' + props.name} className={style.itemDesc}>{props.desc}</Nav.Link>
          </Nav.Item>
         );
 

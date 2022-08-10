@@ -4,11 +4,12 @@ p, h1, body, button, li {
 
 #root, body {
     box-sizing: border-box;
+
 }
 
 #root {
     min-height: 100vh;
-    background-color: #F5F6ED;
+    background-color: #FFFEF2;
 }
 
 .golden {

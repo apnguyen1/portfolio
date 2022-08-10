@@ -1,9 +1,9 @@
 import {Navigation} from "./components/Navigation"
 import {Introduction} from "./components/Introduction";
-import style from "./styles/App.module.css"
 import {Container} from "react-bootstrap";
 import {About} from "./components/About";
 import {Projects} from "./components/Projects";
+import {Contact} from "./components/Contact";
 
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
           <Introduction/>
           <About/>
           <Projects/>
+          <Contact/>
       </Container>
 
   );

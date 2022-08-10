@@ -1,23 +1,115 @@
+.container {
+    margin-bottom: 300px;
+    text-align: center;
+}
+
 .title {
+    display: block;
+
+    text-align: right;
     font-size: 3rem;
+    margin-bottom: 25px;
+    color: #17495f;
 }
 
 .content {
     margin: auto 0;
+}
 
+
+
+.icon {
+    display: inline-block;
+    margin: 10px 5px 0 5px !important;
+    filter: grayscale(1);
+}
+
+.icon svg:hover {
+    transform: scale(1.1);
+}
+
+.row {
+    display: -ms-flexbox;
+}
+
+.card {
+    display: none;
+}
+
+.image {
+    text-align: center;
+    position: relative;
+    max-width: 100%;
+    height: 100%;
 }
 
 .projectTitle {
+    display: block;
     font-size: 2.5rem;
+    color: #17495f;
 }
 
 .projectDesc {
     font-size: 1.2rem;
-
+    color: #112026;
 }
 
 .projectImg {
-    max-width: 450px;
-    backdrop-filter: grayscale(50%);
     margin: auto 0;
+    filter: grayscale(1);
+
+}
+
+.projectImg:hover {
+    animation: color 1s linear;
+    filter: grayscale(0);
+}
+
+.projectImg:not(:hover) {
+    animation: gray 1s linear;
+}
+
+@keyframes color {
+    from {
+        filter: grayscale(1);
+    }
+
+    to {
+        filter: grayscale(0);
+    }
+}
+
+@keyframes gray {
+    from {
+        filter: grayscale(0);
+    }
+
+    to {
+        filter: grayscale(1);
+    }
+}
+
+@media (max-width: 768px) {
+    .row {
+        display: none;
+    }
+
+    .card {
+        display: block;
+
+    }
+    .title {
+        text-align: left;
+        font-size: 2.5rem;
+    }
+
+    .projectTitle {
+        font-size: 2rem;
+    }
+
+    .projectDesc {
+        font-size: 1rem;
+    }
+
+
 }

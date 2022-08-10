@@ -5,28 +5,72 @@ h3 {
 .title {
     display: block;
     font-size: 3rem;
+    color: #17495f;
 }
 
 .desc {
     font-size: 1.2rem;
     margin: auto 0;
+    color: #112026;
 }
 
 .profile {
+    text-align: center;
+}
+
+.profile-pic {
     width: 250px;
+    filter: grayscale(1);
+}
+
+.profile-pic:hover {
+    animation: color 1s linear;
+    filter: grayscale(0);
+
+}
+
+.profile-pic:not(:hover) {
+    animation: gray 1s linear;
+
+}
+
+@keyframes gray {
+    from {
+        filter: grayscale(0);
+    }
+
+    to {
+        filter: grayscale(1);
+    }
+}
+
+@keyframes color {
+    from {
+        filter: grayscale(1);
+    }
+
+    to {
+        filter: grayscale(0);
+    }
 }
 
 @media (max-width: 760px) {
 
     .title {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .desc {
         font-size: 1rem;
     }
+
     .profile {
+        text-align: center;
+    }
+
+    .profile-pic {
         margin-top: 12px;
-        width: 100%;
+        width: 350px;
+
     }
 }

@@ -8,7 +8,7 @@ function About() {
             <h3 id="about" className={style.title}>I. About me</h3>
             <Row>
                 <Col md={8} className={style.desc}>
-                    <p>Hello! I am currently in my second year as an undergraduate at the University of
+                    <p >Hello! I am currently in my second year as an undergraduate at the University of
                         Washington, Seattle campus. I'm also seeking experience as a software developer/engineer
                         to help develop my professional and technical skills in the industry.
                         <br/>
@@ -21,8 +21,9 @@ function About() {
                         I'll strive to always find a path that will lead to  exceptional results, so I can always take pride in my work.
                     </p>
                 </Col>
-                <Col md={4}>
-                    <Image className={style.profile} alt={"picture of Andrew Nguyen"} fluid={true} src={profilePic}/>
+                <Col md={4} className={style["profile"]}>
+                    <Image className={style["profile-pic"]} thumbnail={true} alt={"picture of Andrew Nguyen"} fluid={true} src={profilePic}/>
+
                 </Col>
             </Row>
         </Container>

@@ -8,15 +8,18 @@
 }
 
 .greeting {
+    color: #1b3881;
     font-size: 3rem;
     margin-bottom: 0;
 }
 
 .name {
+    color: #17495f;
     font-size: 6rem;
 }
 
 .desc {
+    color: #112026;
     margin-top: 10px;
     font-size: 1.2rem;
 }
@@ -27,6 +30,7 @@
 }
 
 .icon {
+    color: #17495f;
     transform: scale(2);
     margin-right: 25px;
 }
@@ -46,10 +50,6 @@
     }
     .desc {
         font-size: 1rem;
-    }
-
-    .container {
-        height: 50vh;
     }
 }
 
