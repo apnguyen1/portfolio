@@ -4,6 +4,7 @@ import hangman from "../assets/hangman.png"
 import map from "../assets/campus.png"
 import farm from "../assets/farm.png"
 import tbd from "../assets/tbd.png"
+import notes from '../assets/notes.png'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import OpenInBrowserIcon from '@mui/icons-material/OpenInBrowser';
 import {Link, Stack} from "@mui/material";
@@ -48,12 +49,18 @@ function Projects() {
             'website' : 'https://dubvelopers-uw.github.io/percussion-farms/',
         },
         {
-            'title': "More to Come!",
-            'image': tbd,
+            'title': "Post-It Notes!",
+            'image': notes,
             'order': 0,
-            'desc': "Stay tune. There's a few more projects I'm working on!",
-            'github' : 'https://github.com/apnguyen1',
-            'website': '#',
+            'desc': "A MEAN stack application!!! Post a Note on my website that others can also see as well :) This was my biggest " +
+                "challenge so far and I'm proud to have accomplished it" +
+                ". After many all nighters and desk smashing I was able to learn Angular,MongoDB, and Atlas all in under 2 weeks." +
+                "I learned a lot about the differences between angular and react, a greater understanding of MVC, and how to " +
+                "structure my folders for an easier deployment. By the way, deployment took me 3 days. I tried containizering" +
+                "my front and backend into docker and I'll just say it was a waste of 48 hours. I'll love to explain the " +
+                "journey of this project more in a blog I may create in the future",
+            'github' : "https://github.com/apnguyen1/Post-It-Notes",
+            'website': 'https://andrew-post-it-notes.herokuapp.com/',
         }
     ];
 
