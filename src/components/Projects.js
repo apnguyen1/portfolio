@@ -61,6 +61,14 @@ function Projects() {
                 "journey of this project more in a blog I may create in the future",
             'github' : "https://github.com/apnguyen1/Post-It-Notes",
             'website': 'https://andrew-post-it-notes.herokuapp.com/',
+        },
+        {
+            'title': 'More to Come!',
+            'image': tbd,
+            'order': 1,
+            'desc': "Stay tuned :) There's a few more projects I'm working on.",
+            'github': "https://github.com/apnguyen1",
+            'website' : 'https://nguyen-andrew.netlify.app/'
         }
     ];
 
