@@ -34,7 +34,7 @@ function Projects() {
                 " for my CSE 331 class, I took up this project again and redesigned the entire frontend " +
                 "to make the user's experience feel more smooth and intuitive. I also converted the entire" +
                 " backend code from java to Kotlin so I could challenge myself to learn a new language but also " +
-                "understand parts of the original code that I didn't understand before. ",
+                "understand parts of the original backend that I didn't understand before. ",
             'github' : 'https://github.com/apnguyen1/uw-routes',
             'website': 'https://uw-campus.herokuapp.com/',
         },
@@ -57,7 +57,7 @@ function Projects() {
                 ". After many all nighters and desk smashing I was able to learn Angular,MongoDB, and Atlas all in under 2 weeks." +
                 "I learned a lot about the differences between angular and react, a greater understanding of MVC, and how to " +
                 "structure my folders for an easier deployment. By the way, deployment took me 3 days. I tried containizering" +
-                "my front and backend into docker and I'll just say it was a waste of 48 hours. I'll love to explain the " +
+                " my front and backend into docker and I'll just say it was a waste of 48 hours. I'll love to explain the " +
                 "journey of this project more in a blog I may create in the future",
             'github' : "https://github.com/apnguyen1/Post-It-Notes",
             'website': 'https://andrew-post-it-notes.herokuapp.com/',
